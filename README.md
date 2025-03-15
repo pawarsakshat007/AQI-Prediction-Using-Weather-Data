@@ -19,4 +19,14 @@ This project predicts Air Quality Index (AQI) using machine learning based on we
 ```sh
 git clone https://github.com/yourusername/AQI-Prediction-Using-Weather-Data.git
 cd AQI-Prediction-Using-Weather-Data
+pip install -r requirements.txt
+python train_model.py
+python app.py
+ Access the API at: http://127.0.0.1:5000
+📊 Model Performance
+Accuracy: 99.21%
+Precision: 99.23%
+Recall: 99.21%
+F1-score: 99.22%
+MSE: 1.43 (Before Tuning), 1.67 (After Tuning)
 
